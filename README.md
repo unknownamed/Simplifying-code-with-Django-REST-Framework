@@ -246,7 +246,7 @@ Web browser : Django의 view 함수에게 반환받은 response를 수신함
     ```
     
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image.png)
+![image.png](images/image.png)
 
 settings.py
 
@@ -409,7 +409,7 @@ WARNING: This is a development server. Do not use it in a production setting. Us
 For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%201.png)
+![image.png](images/image%201.png)
 
 이 화면이 뜬다면 웹서버는 켜진것이다. 축하한다!! 
 
@@ -560,7 +560,7 @@ For more information on production servers see: https://docs.djangoproject.com/e
     
     확인하기 → [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
     
-    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%202.png)
+    ![image.png](images/image%202.png)
     
     관리할 테이블에 등록 되었다!!
     
@@ -579,15 +579,15 @@ For more information on production servers see: https://docs.djangoproject.com/e
     Superuser created successfully.
     ```
     
-    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%203.png)
+    ![image.png](images/image%203.png)
     
     성공적으로 로그인한 모습이다!!
     
 3. 글을 올려보자!! → 장고 관리자 페이지(DB 데이터를 GUI(화면)으로 관리 가능)
     
-    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%204.png)
+    ![image.png](images/image%204.png)
     
-    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%205.png)
+    ![image.png](images/image%205.png)
     
     글이 올라갔다!!!
     
@@ -600,6 +600,6 @@ For more information on production servers see: https://docs.djangoproject.com/e
     
     몇개만 글을 더 올려보자!!
     
-    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%206.png)
+    ![image.png](images/image%206.png)
     
 4. 나만 볼순 없다!! → 배포하기(GitHub 이용)
