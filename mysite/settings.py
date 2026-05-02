@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-p+^&3j*cy__e$7g7e&)18b+5or@mda(tw(3-9&k=%)2=al8!)!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ghkdeorua1234.pythonanywhere.com'] #로컬에서 서버 배포했을때를 고려해서 바꿔주기
 
 
 # Application definition
