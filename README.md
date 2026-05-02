@@ -243,7 +243,7 @@ Web browser : Django의 view 함수에게 반환받은 response를 수신함
     ```
     
 
-![image.png](images/image.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image.png)
 
 settings.py
 
@@ -406,7 +406,7 @@ WARNING: This is a development server. Do not use it in a production setting. Us
 For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
 ```
 
-![image.png](images/image%201.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%201.png)
 
 이 화면이 뜬다면 웹서버는 켜진것이다. 축하한다!! 
 
@@ -557,7 +557,7 @@ For more information on production servers see: https://docs.djangoproject.com/e
     
     확인하기 → [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
     
-    ![image.png](images/image%202.png)
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%202.png)
     
     관리할 테이블에 등록 되었다!!
     
@@ -576,15 +576,15 @@ For more information on production servers see: https://docs.djangoproject.com/e
     Superuser created successfully.
     ```
     
-    ![image.png](images/image%203.png)
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%203.png)
     
     성공적으로 로그인한 모습이다!!
     
 3. 글을 올려보자!! → 장고 관리자 페이지(DB 데이터를 GUI(화면)으로 관리 가능)
     
-    ![image.png](images/image%204.png)
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%204.png)
     
-    ![image.png](images/image%205.png)
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%205.png)
     
     글이 올라갔다!!!
     
@@ -597,26 +597,26 @@ For more information on production servers see: https://docs.djangoproject.com/e
     
     몇개만 글을 더 올려보자!!
     
-    ![image.png](images/image%206.png)
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%206.png)
     
 4. 나만 볼순 없다!! → 배포하기
     
     Pythonanywhere 가입하기 (Beginner 초보자)
     
 
-![image.png](images/image%207.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%207.png)
 
 ```python
 이후 email로 인증후 -> 화면
 ```
 
-![image.png](images/image%208.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%208.png)
 
 ```python
 $배쉬를 클릭해서 들어가보자!!
 ```
 
-![image.png](images/image%209.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%209.png)
 
 ```python
 git clone을 통해 Pythonanywhere라는 곳에 내 코드가 저장되어서 다른곳에 있는 서버에 내코드가 올라간것임
@@ -634,7 +634,7 @@ python manage.py collectstatic # 향후 css/js 파일까지 생성되게 되면 
 # 모두 완료 되었다면 --> 웹 앱 탭으로 이동하자!!
 ```
 
-![image.png](images/image%2010.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2010.png)
 
 ```python
 # 다음 -> 장고 -> python 3.13.3 선택(local의 프로젝트 폴더의 파이썬 버전을 확인하고 선택!!)
@@ -642,13 +642,13 @@ python manage.py collectstatic # 향후 css/js 파일까지 생성되게 되면 
 Python 3.13.3
 ```
 
-![image.png](images/image%2011.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2011.png)
 
 ```python
 다음을 눌러 생성하자!!
 ```
 
-![image.png](images/image%2012.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2012.png)
 
 ```python
 생성이 완료되었다!! 이제 WSIG 파일을 수정해주자!!
@@ -658,13 +658,13 @@ Python 3.13.3
 	사용자 브라우저 → PythonAnywhere(웹서버(Ngix, Apache ...)) → WSGI(Web Server Gateway Interface) → Django(blog 앱) → DB(sqlite3 - 기본내장)
 ```
 
-![image.png](images/image%2013.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2013.png)
 
 ```python
 아래로 스크롤해서 Code 카테고리 하위 WSGI config 파일에서 링크를 클릭해서 들어가자!!
 ```
 
-![image.png](images/image%2014.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2014.png)
 
 ```python
 변경 내용 -> mysite를 GitHub 레포 이름으로 변경
@@ -673,17 +673,17 @@ WhiteNoise() 함수를 씌워서 css/js 적용해주기(현재는 없어도됨)
 + 화이트 노이즈가 약간 "배경에서 조용히 깔려서 서비스해주는 것"이라서 프론트엔드 관련 파일이 그렇게 된듯 
 ```
 
-![image.png](images/image%2015.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2015.png)
 
 ```python
 해당 내용을 save로 저장후 -> 새로고침?(다시로드? 초록버튼)를 누르자!!
 ```
 
-![image.png](images/image%2016.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2016.png)
 
 !! white noise라이브러리 깔아야한다 → pip install로 깔아주자
 
-![image.png](images/image%2017.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2017.png)
 
 ```python
 URL로 접속하였는데 화면이 제대로 뜨지않아 error log를 클릭하여 확인하였다.
@@ -703,7 +703,7 @@ Successfully installed whitenoise-6.12.0
 (myvenv) 14:51 ~/Django-Girls-tutorial-follow (main)$ 
 ```
 
-![image.png](images/image%2018.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2018.png)
 
 ```python
 접근 설정해줘야한다 -> 기본은 허용하지 않음 -> ALLOWED_HOSTS = ['ghkdeorua1234.pythonanywhere.com']
@@ -712,10 +712,228 @@ Successfully installed whitenoise-6.12.0
 bahs 열기 -> nano(vi 같은 그냥 편집기인듯) mysite/settings.py -> 바꿔주기 -> 다시 로드
 ```
 
-![image.png](images/image%2019.png)
+![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2019.png)
 
 ```python
 드디어 성공했다!!!! -> /admin을 붙이면 아까 local에서와 같이 관리자 페이지로 들어가진다.
 ```
 
 (12. 배포하기. 까지의 내용이다.)
+
+1. 장고의 URL에 대하여 → mysite/urls.py에서 설정
+    
+    ```python
+    장고에서 URL과 일치하는 view를 찾기 위한 패턴들의 집합 -> URLconf (URL configuration)를 사용
+    ```
+    
+    mysite/urls.py 파일 내용
+    
+    ```python
+    """
+    URL configuration for mysite project.
+    
+    The `urlpatterns` list routes URLs to views. For more information please see:
+        https://docs.djangoproject.com/en/6.0/topics/http/urls/
+    Examples:
+    Function views
+        1. Add an import:  from my_app import views
+        2. Add a URL to urlpatterns:  path('', views.home, name='home')
+    Class-based views
+        1. Add an import:  from other_app.views import Home
+        2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+    Including another URLconf
+        1. Import the include() function: from django.urls import include, path
+        2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+    """
+    from django.contrib import admin
+    from django.urls import path
+    from django.urls import re_path, include #blog 앱에서 url들고오도록 추가
+    
+    urlpatterns = [
+        path('admin/', admin.site.urls), #관리자 페이지 URL
+        re_path(r'', include('blog.urls')), #blog에서 가져오는 것 추가, r은 정규식 문자때문에 쓰는게 관례(\d, \w)
+    ]
+    ```
+    
+    정규 표현식 → URL 패턴 찾기
+    
+    ```python
+    정규 표현식으로 url과 매칭
+    
+    Example
+    http://www.mysite.com/post/12345/ -> ^post/(\d+)/$
+    
+    ^post/ : post/가 있다
+    (\d+) : 숫자(한 개 또는 여러개)가 있다(\이거는 -> d만쓰면 문자 d임 -> \써줘야 decimal 정수임)
+    / : /뒤에 문자가 있다(?)
+    $ : URL의 끝이 앞에 문자로(/)로 끝나야 매칭될 수 있다(끝을 알리는건가?)
+    ```
+    
+    새로 만들기 → blog/urls.py 파일을 만들어 → 정규표현식으로 url패턴 매칭
+    
+    ```python
+    from django.urls import re_path # url 함수 쓰려고 -> url함수 사라짐 -> re_path함수 사용
+    from . import views # 같은 경로의 views.py에 선언되어있는 post_list사용하려고
+    
+    urlpatterns = [ #url패턴 -> 정규식으로 추가
+        re_path(r'^$', views.post_list, name='post_list'), #post_list라는 view에서 실제 url처리
+    ]
+    ```
+    
+    ```python
+    사용자: ghkdeorua1234.pythonanywhere.com/
+                                        ↓ (URL입력 매칭)
+    blog/urls.py: r'^$' 매칭(빈문자열만 매칭, ^(시작)/ $(끝))
+                                        ↓
+    views.post_list() 함수 실행
+                                        ↓
+    게시물 목록 HTML 렌더링
+    ```
+    
+    여기까지 하면 python manage.py runserver를 실행하여도 터미널에 오류가 발생한다 → 아직 view에 post_list()라는 함수를 정의하지 않아서 그런것이니 당황하지 말자!!
+    
+
+(13. Django urls.까지의 내용이다.)
+
+1. View함수를 만들어보자!! → blog/views.py
+    
+    ```python
+    from django.shortcuts import render
+    
+    # Create your views here.
+    def post_list(request):
+            return render(request, 'blog/post_list.html', {}) #blog/post_list.html을 렌더함수가 브라우저에 반환해줌
+    
+    ```
+    
+    ```python
+    view는 어플리케이션의 로직을 넣는 공간이다.(실제 우리가 구현하고싶은 기능인것이다!! 이제야 우리가 만드는 목적이다!!)
+    모델(클래스, 객체(테이블))에게서 필요한 정보를 받아와서 템플릿(화면, html?)에 전달하는 역할
+    ```
+    
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2020.png)
+    
+    걱정하지마라!! → 아직 템플릿이 구현이 안되어서 그렇다 webserver는 실행되지 않는가!
+    
+
+(Django 뷰 만들기. 까지의 내용이다.)
+
+1. 템플릿 작성하기 → 화면을 만들어보자!!
+    
+    템플릿이 뭔가? → 양식을 저장한 파일이다.(한글 보고서 양식 생각하면 편할듯)
+    
+    HTML(HyperText Markup Language)는 뭔가? → 웹 브라우저가 해석할 수 있는 코드(웹 페이지 표현)
+    
+    ```python
+    웹 페이지 간 하이퍼링크(클릭하면 이동하는것)가 포함된 텍스트(나무위키 하위문서, 관련문서 누르면 드가는것)
+    HTML은 태그(tag)로 구성
+    태그 : <(여는 태그) 로 시작하고 >(닫는 태그) = 마크업 요소(elements)라고 함
+    ```
+    
+    템플릿 폴더 → blog폴더 생성하기(폴더 구조가 복잡 사용하는 관습적인 방법)
+    
+    ```python
+    blog
+    └───templates
+     └───blog
+    ```
+    
+    ```python
+    (myvenv) unknownname@hwangdaegyeom-ui-MacBookAir 장고 공부 % cd blog
+    (myvenv) unknownname@hwangdaegyeom-ui-MacBookAir blog % mkdir templates
+    (myvenv) unknownname@hwangdaegyeom-ui-MacBookAir blog % ls
+    __init__.py     admin.py        migrations      templates       urls.py
+    __pycache__     apps.py         models.py       tests.py        views.py
+    (myvenv) unknownname@hwangdaegyeom-ui-MacBookAir blog % cd templates
+    (myvenv) unknownname@hwangdaegyeom-ui-MacBookAir templates % mkdir blog
+    (myvenv) unknownname@hwangdaegyeom-ui-MacBookAir templates % ls
+    blog
+    ```
+    
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2021.png)
+    
+    웹서버를 켜서 확인해보자!!
+    
+    ```python
+    (myvenv) unknownname@hwangdaegyeom-ui-MacBookAir 장고 공부 % python manage.py runserver
+    ```
+    
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2022.png)
+    
+    아까와 달리 빈화면이 뜬다!!
+    
+    ```python
+    <html> #html 시작 끝 붙이기 -> 규칙
+        <p>와 드디어 된다</p> #p는 문단 태그
+        <p>html창이 이렇게 소중한거였구나... 따흐흑...ㅠㅠ</p>
+    </html>
+    ```
+    
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2023.png)
+    
+    당신은 드디어 웹페이지를 띄웠다!! 감격스럽지 아니한가!
+    
+    ```python
+    HTML -> head와 body로 구분
+    head : 문서 정보, 웹 페이지에서 보이지 않음 -> 브라우저에 페이지에 대한 설정을 알려줌
+    body : 웹 페이지에 직접적으로 보이는 내용, 웹 페이지의 실제 내용 -> 실제 페이지에 보여줄 내용
+    ```
+    
+2. 웹 페이지 제목 넣기!!
+    
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2024.png)
+    
+    브라우저 탭창에 페이지의 이름이 뜨는걸 확인할수있다. → 이것을 어떻게 설정하는가?
+    
+    ```python
+    브라우저가 <title>Ola's blog</title> -> 읽고, 브라우저 제목 표시줄에 표시한것이다.
+    ```
+    
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2025.png)
+    
+    ```python
+    <html>
+        <title>황대겸의 Blog</title> #타이틀 태그를 추가하니 탭에 제목이 뜬다!
+        <p>와 드디어 된다</p>
+        <p>html창이 이렇게 소중한거였구나... 따흐흑...ㅠㅠ</p>
+    </html>
+    ```
+    
+    예시 html코드를 약간 변경해보았다
+    
+    ```python
+    <html>
+        <head>
+            <title>황대겸의 Blog</title>
+        </head>
+        <body>
+            <div>
+                <h1><a href="https://tutorial.djangogirls.org/ko/">장고 걸스 튜토리얼 바로가기!</a></h1> 
+            </div>
+    
+            <div>
+                <p>published: 14.06.2014, 12:14</p>
+                <h2><a href="">My first post</a></h2>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            </div>
+    
+            <div>
+                <p>published: 14.06.2014, 12:14</p>
+                <h2><a href="">My second post</a></h2>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
+            </div>
+        </body>
+    </html>
+    ```
+    
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2026.png)
+    
+    다시 Pythonanywhere에서 최신화 후 배포해줄껀데 mysite/setting.py를 미리바꾸고 최신화하자!! → 배포후 바꾸니 충돌이 일어나서 로컬에서 바꿔서 올리는게 편할것 같다.
+    
+    ```python
+    ALLOWED_HOSTS = ['ghkdeorua1234.pythonanywhere.com'] #로컬에서 서버 배포했을때를 고려해서 바꿔주기
+    ```
+    
+    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2027.png)
+    
+    잘뜨는 모습을 확인할 수 있다.
