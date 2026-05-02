@@ -243,7 +243,7 @@ Web browser : Django의 view 함수에게 반환받은 response를 수신함
     ```
     
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image.png)
+![image.png](images/image.png)
 
 settings.py
 
@@ -406,7 +406,7 @@ WARNING: This is a development server. Do not use it in a production setting. Us
 For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%201.png)
+![image.png](images/image%201.png)
 
 이 화면이 뜬다면 웹서버는 켜진것이다. 축하한다!! 
 
@@ -557,7 +557,7 @@ For more information on production servers see: https://docs.djangoproject.com/e
     
     확인하기 → [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
     
-    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%202.png)
+    ![image.png](images/image%202.png)
     
     관리할 테이블에 등록 되었다!!
     
@@ -576,15 +576,15 @@ For more information on production servers see: https://docs.djangoproject.com/e
     Superuser created successfully.
     ```
     
-    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%203.png)
+    ![image.png](images/image%203.png)
     
     성공적으로 로그인한 모습이다!!
     
 3. 글을 올려보자!! → 장고 관리자 페이지(DB 데이터를 GUI(화면)으로 관리 가능)
     
-    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%204.png)
+    ![image.png](images/image%204.png)
     
-    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%205.png)
+    ![image.png](images/image%205.png)
     
     글이 올라갔다!!!
     
@@ -597,26 +597,26 @@ For more information on production servers see: https://docs.djangoproject.com/e
     
     몇개만 글을 더 올려보자!!
     
-    ![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%206.png)
+    ![image.png](images/image%206.png)
     
 4. 나만 볼순 없다!! → 배포하기
     
     Pythonanywhere 가입하기 (Beginner 초보자)
     
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%207.png)
+![image.png](images/image%207.png)
 
 ```python
 이후 email로 인증후 -> 화면
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%208.png)
+![image.png](images/image%208.png)
 
 ```python
 $배쉬를 클릭해서 들어가보자!!
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%209.png)
+![image.png](images/image%209.png)
 
 ```python
 git clone을 통해 Pythonanywhere라는 곳에 내 코드가 저장되어서 다른곳에 있는 서버에 내코드가 올라간것임
@@ -634,7 +634,7 @@ python manage.py collectstatic # 향후 css/js 파일까지 생성되게 되면 
 # 모두 완료 되었다면 --> 웹 앱 탭으로 이동하자!!
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2010.png)
+![image.png](images/image%2010.png)
 
 ```python
 # 다음 -> 장고 -> python 3.13.3 선택(local의 프로젝트 폴더의 파이썬 버전을 확인하고 선택!!)
@@ -642,13 +642,13 @@ python manage.py collectstatic # 향후 css/js 파일까지 생성되게 되면 
 Python 3.13.3
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2011.png)
+![image.png](images/image%2011.png)
 
 ```python
 다음을 눌러 생성하자!!
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2012.png)
+![image.png](images/image%2012.png)
 
 ```python
 생성이 완료되었다!! 이제 WSIG 파일을 수정해주자!!
@@ -658,13 +658,13 @@ Python 3.13.3
 	사용자 브라우저 → PythonAnywhere(웹서버(Ngix, Apache ...)) → WSGI(Web Server Gateway Interface) → Django(blog 앱) → DB(sqlite3 - 기본내장)
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2013.png)
+![image.png](images/image%2013.png)
 
 ```python
 아래로 스크롤해서 Code 카테고리 하위 WSGI config 파일에서 링크를 클릭해서 들어가자!!
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2014.png)
+![image.png](images/image%2014.png)
 
 ```python
 변경 내용 -> mysite를 GitHub 레포 이름으로 변경
@@ -673,17 +673,17 @@ WhiteNoise() 함수를 씌워서 css/js 적용해주기(현재는 없어도됨)
 + 화이트 노이즈가 약간 "배경에서 조용히 깔려서 서비스해주는 것"이라서 프론트엔드 관련 파일이 그렇게 된듯 
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2015.png)
+![image.png](images/image%2015.png)
 
 ```python
 해당 내용을 save로 저장후 -> 새로고침?(다시로드? 초록버튼)를 누르자!!
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2016.png)
+![image.png](images/image%2016.png)
 
 !! white noise라이브러리 깔아야한다 → pip install로 깔아주자
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2017.png)
+![image.png](images/image%2017.png)
 
 ```python
 URL로 접속하였는데 화면이 제대로 뜨지않아 error log를 클릭하여 확인하였다.
@@ -703,7 +703,7 @@ Successfully installed whitenoise-6.12.0
 (myvenv) 14:51 ~/Django-Girls-tutorial-follow (main)$ 
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2018.png)
+![image.png](images/image%2018.png)
 
 ```python
 접근 설정해줘야한다 -> 기본은 허용하지 않음 -> ALLOWED_HOSTS = ['ghkdeorua1234.pythonanywhere.com']
@@ -712,7 +712,7 @@ Successfully installed whitenoise-6.12.0
 bahs 열기 -> nano(vi 같은 그냥 편집기인듯) mysite/settings.py -> 바꿔주기 -> 다시 로드
 ```
 
-![image.png](%EC%9E%A5%EA%B3%A0%EB%A5%BC%20%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90!/image%2019.png)
+![image.png](images/image%2019.png)
 
 ```python
 드디어 성공했다!!!! -> /admin을 붙이면 아까 local에서와 같이 관리자 페이지로 들어가진다.
