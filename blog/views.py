@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
+def post_list(request):
+        return render(request, 'blog/post_list.html', {}) #blog/post_list.html을 렌더함수가 브라우저에 반환해줌
