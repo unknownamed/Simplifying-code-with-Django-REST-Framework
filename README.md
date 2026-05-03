@@ -1,14 +1,16 @@
 # 장고를 배워보자!
-
-<div align="center" style="border: 1px solid #333; overflow: hidden;">
-  <div style="border-bottom: 1px solid #333; padding: 15px;">
-    <h3 style="margin: 0;">실제 웹 동작 영상</h3>
-  </div>
-  <div style="padding: 10px;">
-    <img src="images/웹동작영상.gif" width="600">
-  </div>
-</div>
-<br>
+<table border="1" cellpadding="20" align="center" style="border-collapse: collapse;">
+  <tr>
+    <td align="center" style="border: 1px solid #333;">
+      <h3 style="margin: 5px;">실제 웹 동작 영상</h3>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="border: 1px solid #333;">
+      <img src="images/웹동작영상.gif" width="600">
+    </td>
+  </tr>
+</table>
 
 ```jsx
 나는 Mac 환경에서 이번에 Django를 배우기로 했다
