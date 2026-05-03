@@ -1,18 +1,13 @@
-<html>
-    <head>
-        <title>황대겸의 Blog</title>
-    </head>
-    <body>
-        <div>
-            <h1><a href="https://tutorial.djangogirls.org/ko/">장고 걸스 튜토리얼 바로가기!</a></h1> 
-        </div>
+{% extends 'blog/base.html' %}
 
-        {% for post in posts %}
-        <div>
-            <p>published: {{ post.published_date }}</p>
-            <h1><a href="">{{ post.title }}</a></h1>
+{% block content %}
+    {% for post in posts %}
+        <div class="post">
+            <div class="date">
+                <p>게시자 : {{ post.published_date }}</p>
+            </div>
+            <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
             <p>{{ post.text|linebreaksbr }}</p>
         </div>
-        {% endfor %}
-    </body>
-</html>
+    {% endfor %}
+{% endblock %}
