@@ -1,5 +1,15 @@
 # 장고를 배워보자!
 
+<div align="center" style="border: 1px solid #333; overflow: hidden;">
+  <div style="border-bottom: 1px solid #333; padding: 15px;">
+    <h3 style="margin: 0;">실제 웹 동작 영상</h3>
+  </div>
+  <div style="padding: 10px;">
+    <img src="images/웹동작영상.gif" width="600">
+  </div>
+</div>
+<br>
+
 ```jsx
 나는 Mac 환경에서 이번에 Django를 배우기로 했다
 ```
@@ -1752,12 +1762,3 @@ ORM = Object Relational Mapping (SQL 대신 파이썬으로 DB 조작 가능)
     ![image.png](images/image%2036.png)
     
     진짜 마지막까지 수고하셨습니다. 장고 걸스 튜토리얼을 만들어주신 분들께 감사드립니다. 덕분에 배우고 갑니다.
-
-<div align="center" style="border: 1px solid #ddd; overflow: hidden;">
-  <div style="border-bottom: 1px solid #ddd; padding: 15px;">
-    <h3 style="margin: 0;">실제 웹 동작 영상</h3>
-  </div>
-  <div style="padding: 10px;">
-    <img src="images/웹동작영상.gif" width="600">
-  </div>
-</div>
