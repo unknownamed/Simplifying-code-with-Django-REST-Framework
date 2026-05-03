@@ -6,4 +6,6 @@ from django.urls import path #path 함수 쓰려고
 urlpatterns = [ #url패턴 -> 정규식으로 추가
     re_path(r'^$', views.post_list, name='post_list'), #post_list라는 view에서 실제 url처리
     path('post/<int:pk>/', views.post_detail, name='post_detail'), #정수로구성된 pk값이 오면 -> view에 선언된 post_detail함수 호출
+    path('post/new/', views.post_new, name='post_new'), #새로운 글 작성용 URL패턴 추가
+    path('post/<int:pk>/edit/', views.post_edit, name='post_edit'), #글 수정을 위한 URL 패턴 추가
 ]
