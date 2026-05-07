@@ -17,8 +17,29 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import re_path, include #blog 앱에서 url들고오도록 추가
+from django.contrib.auth.models import User
+from rest_framework import routers, serializers, viewsets
+
+# Serializers define the API representation.
+class UserSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = User
+        fields = ["url", "username", "email", "is_staff"]
+
+
+# ViewSets define the view behavior.
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+# Routers provide an easy way of automatically determining the URL conf.
+router = routers.DefaultRouter()
+router.register(r"users", UserViewSet)
+
 
 urlpatterns = [
     path('admin/', admin.site.urls), #관리자 페이지 URL
-    re_path(r'', include('blog.urls')), #blog에서 가져오는 것 추가, r은 정규식 문자때문에 쓰는게 관례(\d, \w)
+    path("api/", include(router.urls)),
+    path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
+    re_path(r'', include('blog.urls')), #blog에서 가져오는 것 추가, r은 정규식 문자때문에 쓰는게 관례(\d, \w), (정규 표현식 r ''이라서 모든 주소 포함?)포괄적인 기본 주소는 맨밑으로가야됨
 ]
