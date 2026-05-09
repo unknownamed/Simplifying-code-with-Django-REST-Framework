@@ -20,7 +20,7 @@ from django.urls import path
 from django.urls import re_path, include  # blog 앱에서 url들고오도록 추가
 from django.contrib.auth.models import User
 from rest_framework import routers, viewsets  # 직렬화 코드 파일 따로 추가
-from .serializer import UserSerializer  # 직렬화 코드 가져오기
+from rest_framework import serializers  # 직렬화 코드 추가
 
 
 # Serializers define the API representation.
@@ -42,10 +42,11 @@ router.register(r"users", UserViewSet)
 
 
 urlpatterns = [
-    path("admin/", admin.site.urls),  # 관리자 페이지 URL
-    path("api/", include(router.urls)),
+    path("admin/", admin.site.urls),  # 관리자 페이지
+    path(
+        "api/users/", include(router.urls)
+    ),  # api/라고만 적으면 blog꺼와 user 2가지 충돌 ->"api/users/"로 구체적으로 바꿈
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
-    re_path(
-        r"", include("blog.urls")
-    ),  # blog에서 가져오는 것 추가, r은 정규식 문자때문에 쓰는게 관례(\d, \w), (정규 표현식 r ''이라서 모든 주소 포함?)포괄적인 기본 주소는 맨밑으로가야됨
+    path("api/blog/", include("blog.urls")),  # "api/blog/"로 바꿔서 blog용은 따로 만듬
+    re_path(r"", include("blog.urls")),
 ]

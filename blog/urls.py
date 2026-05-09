@@ -1,11 +1,9 @@
-from django.urls import re_path # url 함수 쓰려고 -> url함수 사라짐 -> re_path함수 사용
-from . import views # 같은 경로의 views.py에 선언되어있는 post_list사용하려고
-from django.urls import path #path 함수 쓰려고
+from django.urls import path
+from .views import PostList, PostDetail  # APIView 클래스 가져오기
 
-
-urlpatterns = [ #url패턴 -> 정규식으로 추가
-    re_path(r'^$', views.post_list, name='post_list'), #post_list라는 view에서 실제 url처리
-    path('post/<int:pk>/', views.post_detail, name='post_detail'), #정수로구성된 pk값이 오면 -> view에 선언된 post_detail함수 호출
-    path('post/new/', views.post_new, name='post_new'), #새로운 글 작성용 URL패턴 추가
-    path('post/<int:pk>/edit/', views.post_edit, name='post_edit'), #글 수정을 위한 URL 패턴 추가
+urlpatterns = [
+    # 기존 post_list_create 대체, url패턴에 연결된함수 PostList.as_view() - 클래스 하위 함수를 모두 포괄한다는 뜻인듯 로 연결
+    path("posts/", PostList.as_view(), name="post-list"),
+    # 기존 post_detail_update_delete 대체, url패턴에 함수 연결
+    path("posts/<int:pk>/", PostDetail.as_view(), name="post-detail"),
 ]
