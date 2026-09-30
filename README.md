@@ -12,6 +12,16 @@
 
 [전체 구현 기록](#original-readme-preserved) · [이전: Django 블로그](https://github.com/unknownamed/Django-Girls-tutorial-follow) · [다음: ViewSet 리팩터링](https://github.com/unknownamed/Django-REST-Framework-Refactoring)
 
+## 실제 API 동작 GIF
+
+![Django APIView 게시글 목록 조회, 상세 조회, 제목 수정과 삭제](docs/images/drf-apiview-api-demo.gif)
+
+별도 로컬 SQLite DB에 준비한 데모 글로 목록 조회 → 상세 조회 → 제목 수정 → 변경 확인 → 삭제(204) → 빈 목록 확인을 실행했습니다. GIF는 실제 HTTP 요청·응답을 16:9 화면으로 정리한 기록입니다.
+
+현재 POST의 작성자 저장 제약 때문에 생성 단계는 포함하지 않았습니다. 데모 글은 Django 모델을 통해 미리 준비했습니다.
+
+[실행 환경과 캡처 과정](docs/demo-capture.md)
+
 ## 요청·응답 미리보기
 
 <img src="images/image%203.png" alt="Insomnia에서 게시글 목록을 조회한 기존 실행 화면" width="760">
